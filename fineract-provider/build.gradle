@@ -275,7 +275,8 @@ war {
 
 license {
     header rootProject.file('../APACHE_LICENSETEXT.md')
-    excludes(["**/*.html", "**/*.mustache", "**/package-info.java", "**/keystore.jks"])
+    excludes(["**/*.html", "**/*.mustache", "**/package-info.java", "**/PentahoReportingProcessServiceImpl.java", "**/keystore.jks",
+                           "**/load_sample_data.sql", "**/sample_data/barebones_db.sql"])
     strictCheck true
 }
 
